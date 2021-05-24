@@ -1,0 +1,41 @@
+i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* i:hover {
+  color: red;
+} */
+
+.navbar-brand {
+  color: green !important;
+}
+
+.shop-cart {
+  background-color: #e7e7e7;
+  border-radius: 20px;
+  margin: 3% 10%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-products {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 5%;
+}
+.product-card img {
+  height: 300px;
+}
+
+.fa-trash-alt {
+  color: #dd6b5c;
+}
